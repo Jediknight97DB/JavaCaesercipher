@@ -43,7 +43,7 @@ public class Main {
                     }
                     catch(NumberFormatException e){
                         shifter = 4;
-                        System.out.printf("You entered the wrong format %d, so default value of 4 will be used.\n",input);
+                        System.out.printf("You entered the wrong format %s, so default value of 4 will be used.\n",input);
                     }
                     System.out.print("Enter the sentence for decoding: ");
                     sentence = myObj.nextLine();
